@@ -1,0 +1,235 @@
+
+nav{
+    background-color: black;
+}
+
+body{
+    background-image:linear-gradient(rgba(0.7, 0.7, 0.7, 0.7), rgba(0.7, 0.7, 0.7, 0.7)), url(../imgs/visual_fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+a{
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none ;
+    color: white;
+    font-size: 19px;
+    margin-left: 32px;
+}
+
+a:hover{
+    background-color: rgb(36, 102, 223);
+    border-radius: 18px;
+}
+
+
+
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    margin-right: 38rem;
+    margin-top: 16px;
+    color: white;
+}
+
+.icono{
+    margin-top: 12px;
+    position: absolute !important;
+    right: 99rem;
+    color: white;
+}
+
+
+
+
+h1{
+   font-family: "Merriweather", serif;
+    margin-left:45rem;
+    margin-top:45px;
+    font-size: 45px;
+    color:rgb(23, 111, 212);
+    background: rgba(0, 0, 0, 0.45);
+    text-shadow: 5rem 5rem 5rem black;
+    
+}
+
+
+.card{
+    width: 49rem;
+    margin-top: 34px;
+    margin-left: 37rem;
+    background-color:rgb(31, 31, 31);
+    border-radius: 15px;
+    font-size:24px;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    
+}
+
+
+.imagen1{
+    width: 13rem;
+    margin-left: 54rem;
+    margin-top:3rem;
+}
+
+
+.etiqueta a{
+    width: 10rem;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    font-size: 23px;
+}
+
+.parrafo{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    width: 84%;
+    margin-left: 13rem;
+    margin-top: 3rem;
+}
+
+.imagen2{
+    width: 93rem;
+    margin-top:10rem;
+    margin-left: 16rem;
+}
+
+.imagen3{
+   width: 93rem;
+   margin-top:10rem;
+   margin-left: 16rem;  
+}
+
+.parrafo2{
+   color: white;
+  font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.45);
+    width: 84%;
+    margin-left: 13rem;
+    margin-top: 3rem; 
+}
+
+.imagenes{
+    margin-top:3rem;
+}
+
+.imagen4{
+    width: 10rem;
+    padding: 11px;
+
+}
+
+
+.imagen5{
+    width: 10rem;
+    padding: 11px;
+
+}
+
+
+.imagen6{
+    width: 10rem;
+    padding: 11px;
+
+}
+
+.imagen7{
+    width: 10rem;
+    padding: 11px;
+
+}
+
+.imagen8{
+    width: 10rem;
+    padding: 11px;
+
+}
+
+.imagen9{
+   width: 93rem;
+   margin-top:10rem;
+   margin-left: 16rem;
+}
+
+
+footer{
+    background-color: rgb(36, 102, 223);
+    color: black;
+    width: 100%;
+    height: 13vh;
+
+}
+
+footer a:hover{
+    background-color: transparent;
+}
+
+.descripcion{
+    margin-top: 3rem;
+    position: absolute;
+    left: 34rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+
+
+
+.imagen10{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 55rem;
+ margin-top: 1rem;
+
+    
+}
+
+
+.imagen11{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 62rem;
+ margin-top: 1rem;
+
+
+    
+}
+
+
+
+.imagen12{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 69rem;
+ margin-top: 1.50rem;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,292 @@
+nav{
+    background-color: black;
+}
+
+body{
+    background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5)),url(../imgs/fondo_python.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     background-attachment: fixed;
+}
+
+
+
+
+a{
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none ;
+    color: white;
+    font-size: 19px;
+    margin-left: 32px;
+}
+
+a:hover{
+    background-color:rgb(248, 216, 33);
+    border-radius: 18px;
+}
+
+
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    margin-right: 38rem;
+    margin-top: 16px;
+    color: white;
+}
+
+.icono{
+    margin-top: 12px;
+    position: absolute !important;
+    right: 100rem;
+    color: white;
+}
+
+
+h1{
+   font-family: "Merriweather", serif;
+    margin-left:49rem;
+    margin-top:45px;
+    font-size: 45px;
+    color:rgb(240, 224, 2);
+ 
+    
+}
+
+
+
+p{
+    font-size:19px;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+}
+
+
+.card{
+    width: 49rem;
+    margin-top: 34px;
+    margin-left: 37rem;
+    background-color:rgb(31, 31, 31);
+    border-radius: 15px;
+    
+}
+
+
+.imagen1{
+    width: 15rem;
+    margin-left: 54rem;
+    margin-top:19px;
+}
+
+
+.card2{
+    width: 37rem;
+    background-color:rgb(255, 255, 255);
+    border-radius: 18px;
+    padding: 17px;
+    margin-left: 44rem
+}
+
+
+
+
+.card3{
+      width: 41rem;
+      background-color:rgb(255, 255, 255);
+      margin-left: 42rem;
+      padding: 17px;
+      border-radius: 18px;
+      margin-top: 5rem;
+}
+
+
+
+
+.card4{
+    width: 34rem;
+    background-color:rgb(255, 255, 255);
+    margin-left: 46rem;
+    padding: 17px;
+    border-radius: 18px;
+    margin-top: 5rem;
+}
+.parrafos2{
+    color:white;
+    width: 84%;
+    margin-left: 13rem;
+    margin-top: 5rem ;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 18px;
+}
+
+.parrafos2 p{
+   font-family:'Courier New', Courier, monospace;
+   font-size: 21px;
+   margin-top: 3rem;
+   
+}
+
+.card4{
+    width: 40rem;
+    background-color:rgb(255, 255, 255);
+    margin-left: 41rem;
+    padding: 17px;
+    border-radius: 18px;
+    margin-top: 5rem;  
+}
+
+span{
+    font-size: 23px;
+}
+
+.card5{
+ width: 41rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 41rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+
+pre[class*="language-"],
+code[class*="language-"] {
+    font-family: 'Consolas', 'Courier New', 'Fira Code', monospace !important;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.card6{
+ width: 26rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 49rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+
+.card7{
+ width: 52rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 35rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+
+
+.card8{
+ width: 29rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 47rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+
+.card9{
+ width: 45rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 38rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+
+.card10{
+ width: 41rem;
+ background-color:rgb(255, 255, 255);
+ margin-left: 41rem;
+ padding: 17px;
+ border-radius: 18px;
+ margin-top: 5rem;  
+
+}
+
+footer{
+    background-color:rgb(248, 216, 33);
+    color: black;
+    width: 100%;
+    height: 13vh;
+
+}
+
+footer a:hover{
+    background-color: transparent;
+}
+
+
+
+.descripcion{
+    margin-top: 3rem;
+    position: absolute;
+    left: 34rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+
+
+
+.imagen2{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 55rem;
+ margin-top: 1rem;
+
+    
+}
+
+
+.imagen3{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 62rem;
+ margin-top: 1rem;
+
+
+    
+}
+
+
+
+.imagen4{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 69rem;
+ margin-top: 1.50rem;
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

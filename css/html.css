@@ -1,0 +1,252 @@
+nav{
+    background-color: black;
+}
+
+
+
+
+
+
+body{
+    background-image: linear-gradient(rgba(0.6, 0.6, 0.6, 0.6), rgba(0.6, 0.6, 0.6, 0.6)),url(../imgs/fondo_html.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    margin-right: 38rem;
+    margin-top: 16px;
+    color: white;
+}
+
+.icono{
+    margin-top: 12px;
+    position: absolute !important;
+    right: 101rem;
+    color: white;
+}
+
+
+a{
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none ;
+    color: white;
+    font-size: 19px;
+    margin-left: 32px;
+}
+a:hover{
+    background-color: rgb(255, 136, 0);
+    border-radius: 18px;
+}
+
+h1{
+   font-family: "Merriweather", serif;
+    margin-left:54rem;
+    margin-top:45px;
+    font-size: 45px;
+    color:rgb(255, 123, 0);
+ 
+}
+
+.card{
+    width: 49rem;
+    margin-top: 34px;
+    margin-left: 37rem;
+    background-color:rgb(31, 31, 31);
+    border-radius: 15px;
+    font-size:22px;
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    
+}
+
+h2{
+    color:rgb(255, 123, 0);
+    font-family: "Merriweather", serif;
+    margin-left: 44rem;
+    margin-top: 54px;
+    background: rgba(0, 0, 0, 0.45);
+
+
+}
+
+.imagen1{
+    width: 8rem;
+    margin-left: 58rem;
+    margin-top:-12px;
+}
+
+
+.card2{
+    width: 37rem;
+    background-color:white;
+    border-radius: 18px;
+    padding: 17px;
+    margin-left: 44rem
+}
+
+.parrafo1{
+    color: #f5f5f5;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    width: 83%;
+    margin-left: 16rem;
+    margin-top: 28px;
+}
+
+li{
+    padding: 14px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card3{
+    width: 49rem; 
+     background-color:rgb(31, 31, 31);
+    border-radius: 14px;
+    margin-left:38rem ;
+    margin-top: 4rem;
+    padding: 34px;
+}
+
+.parrafo2{
+    color:white;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    width: 83%;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+
+.imagenes{
+    margin-top:3rem;
+}
+
+.imagen2{
+  width: 10rem;
+  padding: 11px;
+ 
+
+}
+
+
+.imagen3{
+ width: 10rem;
+ padding: 11px;
+}
+
+
+.imagen4{
+ width: 10rem;
+ padding: 11px;
+    
+}
+
+
+.imagen5{
+ width: 8rem;
+ padding: 11px;
+    
+}
+
+
+.etiqueta {
+    margin-top:2rem
+}
+
+
+
+
+.etiqueta a{
+    width: 12rem;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    font-size: 23px;
+}
+
+
+footer{
+    background-color:rgb(255, 123, 0); 
+    color: black;
+    width: 100%;
+    height: 13vh;
+
+}
+
+footer a:hover{
+    background-color: transparent;
+}
+
+.descripcion{
+    margin-top: 3rem;
+    position: absolute;
+    left: 34rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+
+
+
+.imagen6{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 55rem;
+ margin-top: 1rem;
+
+    
+}
+
+
+.imagen7{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 62rem;
+ margin-top: 1rem;
+
+
+    
+}
+
+
+
+.imagen8{
+ width: 6rem;
+ padding: 11px;
+ position:absolute;
+ left: 69rem;
+ margin-top: 1.50rem;
+
+
+    
+}
+
+
+.despedida{
+    font-size:22px;
+    font-family:  'Consolas', 'Courier New', 'Fira Code', monospace !important;;
+    color:beige;
+    margin-left: 15rem;
+    width: 85%;
+    margin-top: 3rem
+}
+
+
+
+
+
+
+
+

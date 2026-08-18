@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
+    <link rel="stylesheet"  href="css/font/bootstrap-icons.css">
+    <link rel="stylesheet"  href="css/git.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav d-flex justify-content-center">
+    <h3>code.codex</h3>
+    <div class="icono">
+    <i class="bi bi-code-slash fs-1"></i>
+    </div>
+     <a href="visual.html">seccion visual</a>
+     <a href="python.html">seccion python</a>
+     <a href="index.html">seccion html</a>
+     <a href="css.html">seccion css</a>
+     <a href="git_hub.html">seccion git hub</a>
+    </nav>
+      <h1>seccion git</h1>
+    <div class="card">
+    <div class="card-body">
+  <p class="parrafo">En esta nueva sección se hablará de una herramienta muy utilizada llamada Git. Esta nos permite hacer versiones de nuestros proyectos,
+        para este caso distintos guardados o commits que se hacen cuando agregamos ya sea un archivo nuevo, una nueva función a nuestro código
+        o una nueva importación de librerías a nuestro proyecto local. Cada cosa o cambio mínimo que se haga se guardará a través de estos comandos especiales
+        de Git.
+</p>
+     </div>
+    </div>
+    <img class="imagen1" src="imgs/git_logo.png">
+    <div class="etiqueta">
+    <a class="btn btn-success"  href="https://git-scm.com/">Desacargar</a>
+    </div>
+
+     <div class="card2">
+       <div class="card-body2">
+    <pre><code class="language-bash">
+       mkdir mi-proyecto
+       cd mi-proyecto
+       touch index.html
+       code .
+       git init
+       git config --global user.name "Tu Nombre"
+       git config --global user.email "tu@email.com"
+       git add .
+       git commit -m "Agregué la sección de Python"
+       git remote add origin https://github.com/USUARIO/REPOSITORIO.git
+       git branch -M main
+       git push -u origin main
+       git push
+
+    </code></pre>
+</div>
+    </div>
+    <div class="card3">
+        <div class="card-body3">
+   <li><p>
+      Primero empezaremos por crear la carpeta de nuestro proyecto desde una terminal utilizando el comando mkdir. Después de haberla creada
+      ejecutamos cd junto al nombre de la carpeta creada para poder entrar a ella. Una vez allí ejecutaremos touch para crear los archivos
+      que necesitemos para trabajar y por último abriremos el editor de código usando el comando code . Así podremos continuar con el proceso.
+</p></li>
+<li><p>
+     Una vez dentro de Visual Studio Code es recomendable añadir el contenido que manejará cada archivo en su interior. Una vez pasado esto abriremos la terminal
+     del editor y ejecutaremos git init. Este creará una carpeta .git oculta que guardará el historial y configuración del repositorio creado directamente desde GitHub.
+     Todo esto lo preparará para lo que se ejecutará a continuación, pero antes es de suma importancia crear y configurar nuestro usuario, tanto poner el nombre como el email.
+     Se tienen que poner tal y como lo piden los dos comandos que van después de git init en el ejemplo de arriba.
+</p></li>
+<li><p>
+    Ahora vamos con git add . Este comando cumple la función de que al ejecutarse enlistará todos los archivos que se encuentren
+    en nuestra carpeta. Cada uno será enlistado para la subida automática la cual se llegará a GitHub, una web que ya mencioné en el párrafo anterior.
+    Esta nos brinda la oportunidad de crear repositorios o almacenamientos locales en los que guardamos cada uno de nuestros proyectos. Si se desea saber más
+    información al respecto recomiendo visualizar la sección de GitHub respectivamente.
+</p></li>
+<li><p>
+      Siguiendo con la lista tenemos git commit -m "Agregué la sección de Python". Este comando nos permite hacer una fotografía de nuestro proyecto.
+      En pocas palabras es hacer una bitácora del cambio más grande agregado a este, ya sea una modificación o el agregado de un archivo nuevo. La palabra commit
+      es en donde se nos permite poner el nombre de ese gran cambio entre las comillas para poder ir llevando así la lista de cambios importantes que le hemos hecho
+      a nuestro proyecto.
+</p></li>
+<li><p>
+      Antes de explicar para qué sirve este comando git remote add origin https://github.com/USUARIO/REPOSITORIO.git es indispensable haber leído primero la sección de GitHub en la que se explica cómo crear un repositorio
+      para después seguir leyendo esta explicación. Así que continuemos: el comando que les acabé de mostrar es el que nos permite conectar el proyecto local al repositorio creado desde GitHub. Esto
+      nos permitirá alistar todo lo que ya habíamos hecho anteriormente: todos los archivos que seleccionamos por medio de add . y el commit que representa la primera versión oficial
+      de nuestro proyecto en sí.
+</p></li>
+<li><p>
+      El comando git branch -M main nos permitirá seleccionar la rama específica en donde será subido nuestro proyecto. Pero como tal ¿qué es una rama?
+      Para este caso es aquella línea de trabajo independiente en la cual se encontrará todo lo que iremos subiendo con respecto a nuestro proyecto.
+      En un ejemplo muy práctico digamos que se desea probar una nueva función sin estropear todo lo que ya está; esto podrá guardarse en una versión
+      totalmente nueva en un commit y ese mismo lo guardará la misma rama de trabajo. Esta puede variar, ya que usualmente se usan los dos tipos
+      main o branch, pero más que todo es main la que se suele usar más para estos casos.
+</p></li>
+<li><p>
+       Seguimos con el comando git push -u origin main. Este nos permitirá en definitiva subir nuestro proyecto al repositorio al cual lo hemos
+       enlazado y como se puede ver en él indica claramente la rama exacta a la cual irá. Esto después de haberla seleccionado tras ejecutar todos los anteriores comandos
+       que son indispensables para lograr este proceso.
+</p></li>
+<li>
+<p>
+     Por último tenemos el comando git push. Este podrá ser usado para hacer futuras subidas al repositorio remoto desde donde está nuestro proyecto
+     hacia el repositorio remoto a donde lo enlazamos. Esto claro, una vez hecho completamente el proceso de subida principal.
+</p>
+</li>
+</div>
+</div>
+<div class="lista">
+<small class="text-warning">Consejos:</small>
+<ul>
+<li>Si se desea confirmar que git add . funcionó correctamente se puede ejecutar el comando git status para verificar
+    el estado de cada archivo.
+</li>
+<li>
+    Si se desea confirmar que el commit hecho con el comando git commit -m se puede verificar con el comando git log para
+    mostrar el historial de versiones.
+</li>
+<li>
+    Si se desea confirmar en qué rama estamos parados utilizamos el comando git branch, el cual una vez ejecutado nos mostrará
+    la rama en la que estamos. Puede ser main o master dependiendo de cómo se haya hecho la configuración de selección.
+</li>
+<li>
+     Si es en el caso de comprobar si nuestro proyecto está conectado al repositorio asignado utilizamos git remote -v. Este nos devolverá
+     el resultado que tendrá nuestro nombre de usuario de GitHub y el nombre de nuestro proyecto.
+</li>
+</ul>
+</div>
+
+
+
+    <footer>
+       <div class="descripcion">
+       buscame en mis redes sociales:
+       </div>
+       <a href="https://www.facebook.com/profile.php?id=61590537695403">
+        <img class="imagen2" src="imgs/facebook.png">
+       </a>
+       <a href="https://www.threads.com/@kanutohiroshiki?xmt=AQG0G_n5n-gAd0URA2pbDdnUSpG_fGiImxvkjKF0WLlPz0s">
+        <img class="imagen3" src="imgs/instagram_logo.png">
+       </a>
+       <a href="https://www.youtube.com/@orlandoBerrocal-x8k">
+       <img class="imagen4" src="imgs/youtube_logo.png">
+       </a>
+       
+
+
+    </footer>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+</body>
+</html>

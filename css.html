@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.css">
+    <link rel="stylesheet"  href="css/font/bootstrap-icons.css">
+    <link rel="stylesheet"  href="css/css.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav d-flex justify-content-center">
+    <h3>code.codex</h3>
+    <div class="icono">
+    <i class="bi bi-code-slash fs-1"></i>
+    </div>
+     <a href="visual.html">seccion visual</a>
+     <a href="python.html">seccion python</a>
+     <a href="index.html">seccion html</a>
+     <a href="git.html">seccion git</a>
+     <a href="#">seccion git hub</a>
+    </nav>
+     <h1>secccion css</h1>
+     <div class="card">
+    <div class="card-body">
+    <p>Esta sección nos mostrará el secreto de cada vista web a la hora de ponerle un estilo que le da los colores, las posiciones respectivas y la apariencia
+        definitiva que tiene cada elemento de ella. Es aquí donde entra el CSS, quien es exactamente el lenguaje encargado de realizar todo
+        esto a través de diferentes funciones que podemos crear manualmente. Estas se denominan clases y van siempre asignadas a uno o varios elementos a la vez.
+        Cada una de estas contiene los estilos respectivos.
+     </p>
+     </div>
+    </div>
+    <img class="imagen1" src="imgs/css_logo.png">
+    <div class="card2">
+       <div class="card-body2">
+    <pre><code class="language-css">
+        .clase{
+        }
+        
+        body{
+        }
+
+
+        #clase{
+        }
+
+        &lt;div class="clase"&gt;
+        &lt;body&gt;
+        &lt;div id='clase'&gt;
+
+        
+    </code></pre>
+</div>
+    </div>
+    <div class="parrafo">
+     <li><p>Como se ve en las líneas anteriores, existen no solo una sino varias formas de dar estilos a muchos elementos. En primer lugar está la creación de una clase.
+        Estas son las más comunes, ya que pueden ser creadas manualmente desde un archivo CSS con cualquier nombre, pero poniendo antes un punto adelante del nombre
+         como identificador de que es una clase. Para proseguir con el ejemplo, donde nombre debe ser aplicado
+        a través del atributo class a un elemento, en este caso un div, para así llevar dentro de sí el nombre de clase creada.
+</p></li>
+<li><p>La segunda manera consiste en poner el nombre de la etiqueta directamente para establecer los estilos exactos. Esto se puede usar
+        como alternativa cuando no se desea establecer más de una clase a un elemento en sí, como lo serían: body, div, h1, img, card, etc.
+</p></li>
+<li><p>La tercera manera es un poco diferente a las anteriores, ya que como tal aquí esta puede ser usada para aplicar estilos a
+      elementos a través de id o identificadores. Estos son agregados para saber cuál elemento en específico se le tiene que agregar
+      los estilos que se le darán. Esto teniendo primero como asignación el carácter # antes del nombre del identificador,
+        ya a diferencia del atributo class que es para poner un nombre de clase. En el caso de los id, en el elemento se debe
+        poner el atributo id para seguido poner dentro el nombre del identificador del elemento.
+</p></li>
+    </div>
+
+     <div class="card3">
+       <div class="card-body3">
+    <pre><code class="language-css">
+        <!--clases de css y sus husos-->
+        .clases{
+         margin-left: 10px;
+         margin-right: 10px;
+         margin-top: 10px;
+         font-size: 16px;
+         font-family: Arial;
+         width: 200px;
+         height: 100px;
+         position: relative;
+         color: #000;
+         background-color: #fff;
+         }
+    </code></pre>
+</div>
+    </div>
+      <div class="card4">
+      <div class="card-body4">
+     <li><p>
+       <h4 class="text-danger">margin-left:</h4> Nos permite deslizar cualquier elemento a la derecha agregando espacio a su izquierda.
+</p></li>
+<li><p><h4 class="text-danger">margin-right:</h4> Este, a diferencia de margin-left, es todo lo contrario: nos permite deslizar los elementos
+   a la izquierda agregando espacio a su derecha.</p></li>
+<li><p>
+<h4 class="text-danger">margin-top:</h4> Esta nos permite deslizar los elementos hacia abajo agregando espacio arriba de estos.
+</p></li>
+<li><p>
+<h4 class="text-danger">font-size:</h4> Esta nos permite agrandar el tamaño de ciertos elementos específicos como lo son los h1 o los p. También puede aplicarse a otros como lo
+        son las img.
+</p></li>
+<li><p>
+<h4 class="text-danger">font-family:</h4> Exclusiva de los h1, p y otras de tipo string, permite cambiar directamente la apariencia de un párrafo
+        o título a una fuente tipográfica diferente, cambiando así el estilo visual con el que se miran estos. Ejemplos de fuentes son: Arial; Verdana; Tahoma; Helvetica; Georgia; 'Times New Roman'; 'Trebuchet MS'; 'Courier New'.
+</p></li>
+<li><p>
+<h4 class="text-danger">width:</h4> Esta propiedad nos permite dar una expansión más al ancho de un elemento. Es crucial a la hora de cubrir
+      espacios determinados para un gran ajuste en lo visual.
+</p></li>
+<li><p>
+<h4 class="text-danger">height:</h4> A diferencia de width que se encarga del ancho, este juega un papel diferente al dar una altura específica a cada componente
+        que sea de un tamaño minúsculo.
+</p></li>
+<li><p>
+<h4 class="text-danger">position:</h4> Este atributo nos permite establecer una posición determinada dentro del HTML a cada parte de este a través de variaciones del mismo,
+        cada una con su respectiva función sobre lo que actúa: fixed, absolute, static, relative y sticky.
+<ul>
+<li><h4 class="text-danger">fixed:</h4> Permite dejar el elemento fijo en la pantalla; sin importar si bajamos hacia abajo o no, seguirá ahí.</li>
+<li><h4 class="text-danger">absolute:</h4> Permitirá sacar al elemento del flujo de la página, permitiéndonos posicionarlo donde sea, ya sea con left o right.</li>
+<li><h4 class="text-danger">static:</h4> Dejará al elemento en su posición exacta según como lo tenga el HTML.</li>
+<li><h4 class="text-danger">relative:</h4> El elemento permanecerá en el flujo normal de la página, pero podrá ser movido con left o right.</li>
+<li><h4 class="text-danger">sticky:</h4> Una combinación de fixed y relative. Permitirá que el elemento permanezca en su lugar, pero después si pasas
+            de su contenedor se pegará arriba.</li>
+</ul>
+</p></li>
+<li><p>
+<h4 class="text-danger">color:</h4> Este nos permite aplicar distintos colores ya sea a elementos como textos o párrafos. Esto a través de distintas paletas
+        de colores que nos ofrece el atributo para decorar de manera eficiente, permitiendo así que la página tenga un estilo vivo y eficiente.
+</p></li>
+<li><p>
+<h4 class="text-danger">background-color:</h4> Al igual que el atributo anterior, este nos permite poner color a ciertas partes de un elemento, pero en este caso
+        no colorea textos y párrafos; en su lugar colorea solo el fondo del elemento en específico, como por ejemplo un body.
+</p></li>
+<li><p>
+<h4 class="text-danger">background:</h4> En el caso de este atributo ocurre algo muy diferente, ya que representa en sí la versión completa de otros
+        atributos como lo son background-color o background-image (la cual se encarga de mostrar imágenes de fondo). Background posee todas las
+        funciones en su solo uso: poner colores, mostrar imágenes de fondo, crear degradados, dar repetición a ciertas cosas o ajustar tamaños, entre
+        muchas cosas más. Todo esto en un solo atributo mejorado y completo.
+</p></li>
+</div>
+</div>
+<div class="lista">
+<small class="text-warning">Unidades de medida más comunes:</small>
+<ul>
+<li><h4 class="text-warning">(px)</h4> Significa unidad de medida en píxeles. Nos permite ajustar un punto en la pantalla a cualquier elemento, ya sea un texto (h1), un párrafo (p),
+         un bloque (div) o una imagen (img). Recordar que la acción que haga esta propiedad depende totalmente del atributo en el que esté. Por ejemplo,
+         si se encuentra en (font-size: 20px;), la función que ejercerá sobre el elemento que tiene la clase asignada será aumentarlo de tamaño considerablemente y
+      así cumplirá otros roles distintos como lo son dejar espacio a la izquierda con margin-left o dejar espacio hacia arriba con margin-top.</li>
+<li>
+<h4 class="text-warning">(rem)</h4> Es una unidad de medida relativa al tamaño de la fuente (font-size)
+        del elemento raíz de la página. Esto significa que cualquier propiedad
+        que utilice rem, como font-size: 2rem;, tomará como referencia el
+        font-size establecido en el elemento raíz y lo multiplicará por el
+       número indicado.
+</li>
+<li>
+<h4 class="text-warning">(%)</h4> Esta unidad de medida permite que cualquier elemento que esté dentro de un contenedor padre (el cual ya sea div u otro) ocupe un espacio determinado de este.
+         Un ejemplo de esto sería (font-size: 2%;) el cual le dice directamente al elemento que tenga la clase junto con el atributo que ocupe un 2% del contenedor padre,
+         adaptándolo al tamaño de sus letras y así sucesivamente con otros atributos como width (ancho), height (alto), margin-left (espacio a la izquierda) entre otros.
+</li>
+<li><h4 class="text-warning">(vh)</h4> Esta propiedad nos permite dimensionar un elemento a la altura exacta de la página que este vaya a ocupar. Un ejemplo de ello sería decirle a un texto (h1)
+         (width: 2vh); esto le dice exactamente que, adaptando a su ancho la unidad 2vh, ocupará un 2% de la altura de la página. Lo mismo si se usa en atributos como font-size:
+         esta aumentará el tamaño del h1 al 2% de la altura de la página. Hay una cosa a tener en cuenta: cuando se dice 1vh equivale al 1% de la
+         pantalla, solo se refiere al porcentaje de esta; no confundir con la unidad de % que va en función del tamaño de un contenedor padre.
+</li>
+      </ul>
+      </div>
+
+      <div class="despedida">
+      <p>hasta aqui es el final de esta larga seccion explicativa a sido un honor detallar todo acerca del css mas que todo en la parte de como crear cada clase y  los atributos que son de suma importancia 
+         a la hora de husarse en el html mismo para garantizar una excelente visualzion al usuario.
+      </p>
+      </div>
+
+
+        <footer>
+       <div class="descripcion">
+       buscame en mis redes sociales:
+       </div>
+       <a href="https://www.facebook.com/profile.php?id=61590537695403">
+        <img class="imagen2" src="imgs/facebook.png">
+       </a>
+       <a href="https://www.threads.com/@kanutohiroshiki?xmt=AQG0G_n5n-gAd0URA2pbDdnUSpG_fGiImxvkjKF0WLlPz0s">
+        <img class="imagen3" src="imgs/instagram_logo.png">
+       </a>
+       <a href="https://www.youtube.com/@orlandoBerrocal-x8k">
+       <img class="imagen4" src="imgs/youtube_logo.png">
+       </a>
+       
+
+
+    </footer>
+
+
+
+
+
+      
+      
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+</html>
+
