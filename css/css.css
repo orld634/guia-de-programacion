@@ -1,10 +1,105 @@
+.nav2{
+    height: 6rem;
+   background-color: black;
+}
 
-nav{
+#button{
+  margin-top: 29px; 
+  margin-left:3rem;
+}
+
+@font-face {
+  font-family: 'Code-Codex2';
+  src: url('code-codex2-recuperada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+h6{
+  color:rgb(0, 208, 255);
+  position:absolute;
+  left:29rem;
+  font-family: 'Code-Codex2';
+  font-size: 42px;
+  margin-top: 21px;
+  font-weight: bold;
+  font-synthesis: weight;
+  
+}
+
+
+h7{
+   color: white;
+   position:absolute;
+   left:94rem;
+   font-family: "Merriweather", serif;
+   font-size: 40px;
+   margin-top: 13px;
+  
+}
+
+
+.icono2{
+    margin-top: 12px;
+    position: absolute !important;
+    left: 108rem;
+    color: white;
+
+}
+
+h9{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    
+}
+
+
+
+
+
+
+
+
+
+#offcanvasExample{
+    width: 18%;
+}
+
+.offcanvas-header{
     background-color: black;
 }
 
+.btn-close{
+    background-color: gray;
+}
+
+
+
+
+.offcanvas-body{
+ background-color: black ;
+
+}
+
+
+
+.nav{
+    background-color: black;
+    width: 17rem;
+    height: 103vh;
+    padding:0;
+    margin:0;
+    z-index: 1000;
+    padding:0;
+    position:fixed;
+    margin-top: -45px;
+   
+}
+
   body {
-    background-image:linear-gradient(rgba(0.9, 0.9, 0.9, 0.9), rgba(0.9, 0.9, 0.9, 0.9)), url(../imgs/css_fondo.png);
+    background-image:linear-gradient(rgba(0.6, 0.6, 0.6, 0.6), rgba(0.6, 0.6, 0.6, 0.6)), url(../imgs/css_fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -13,12 +108,14 @@ nav{
    
 
 a{
-    padding: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none ;
     color: white;
+    padding: 27px 29px;
     font-size: 19px;
-    margin-left: 32px;
+    display: inline-block;
+    top:0;
+    margin-bottom: 3rem;
 }
 
 a:hover{
@@ -29,11 +126,11 @@ a:hover{
 
 h1{
    font-family: "Merriweather", serif;
-    margin-left:53rem;
+    margin-left:46rem;
     margin-top:45px;
     font-size: 45px;
-    color:white;
-    background: rgba(0, 0, 0, 0.45);
+    color:rgb(0, 208, 255);
+
     
 }
 
@@ -49,15 +146,16 @@ h3{
 .icono{
     margin-top: 12px;
     position: absolute !important;
-    right: 100rem;
+    right: 2rem;
     color: white;
+    position: absolute;
 }
 
 
 .card{
     width: 49rem;
     margin-top: 34px;
-    margin-left: 37rem;
+    margin-left: 33rem;
     background-color:rgb(31, 31, 31);
     border-radius: 15px;
     font-size:22px;
@@ -69,7 +167,7 @@ h3{
 
 .imagen1{
     width: 18rem;
-    margin-left:52rem;
+    margin-left:49rem;
     margin-top:19px;
 }
 
@@ -78,7 +176,7 @@ h3{
     background-color:rgb(255, 255, 255);
     border-radius: 18px;
     padding: 17px;
-    margin-left: 50rem;
+    margin-left: 47rem;
     margin-top: 2rem;
 }
 
@@ -97,7 +195,7 @@ h3{
     background-color:rgb(255, 255, 255);
     border-radius: 18px;
     padding: 17px;
-    margin-left: 50rem;
+    margin-left: 47rem;
     margin-top: 3rem;
 }
 
@@ -110,7 +208,7 @@ h4{
 .card4{
  width:75rem;
  background-color:rgb(31, 31, 31);
- margin-left: 24rem;
+ margin-left: 22rem;
  padding: 43px;
  border-radius: 18px;
  margin-top: 5rem;  
@@ -161,12 +259,11 @@ footer a:hover{
 
 
 .imagen2{
- width: 6rem;
+width: 6rem;
  padding: 11px;
  position:absolute;
  left: 55rem;
- margin-top: 1rem;
-
+ margin-top: -3px;
     
 }
 
@@ -176,8 +273,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 62rem;
- margin-top: 1rem;
-
+ margin-top: -2px;
 
     
 }
@@ -189,7 +285,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 69rem;
- margin-top: 1.50rem;
+ margin-top: 3px;
 
 
     

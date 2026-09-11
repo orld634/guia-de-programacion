@@ -1,6 +1,107 @@
-nav{
+.nav2{
+    height: 6rem;
+}
+
+#button{
+  margin-top: 29px; 
+  margin-left:3rem;
+}
+
+@font-face {
+  font-family: 'Code-Codex2';
+  src: url('code-codex2-recuperada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+h6{
+   color:rgb(168, 176, 186);
+   position:absolute;
+   left:43rem;
+   font-family: 'Code-Codex2';
+   font-size: 42px;
+   margin-top: 21px;
+   font-weight: bold;
+   font-synthesis: weight;
+
+  
+}
+
+
+h7{
+   color: white;
+   position:absolute;
+   left:94rem;
+   font-family: "Merriweather", serif;
+   font-size: 40px;
+   margin-top: 13px;
+  
+}
+
+
+.icono2{
+    margin-top: 12px;
+    position: absolute !important;
+    left: 108rem;
+    color: white;
+
+}
+
+h9{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#offcanvasExample{
+    width: 18%;
+}
+
+.offcanvas-header{
     background-color: black;
 }
+
+.btn-close{
+    background-color: gray;
+}
+
+
+
+
+.offcanvas-body{
+ background-color:black;
+
+}
+
+
+
+.nav{
+    background-color: black;
+    width: 17rem;
+    height: 103vh;
+    padding:0;
+    margin:0;
+    z-index: 1000;
+    padding:0;
+    position:fixed;
+    margin-top: -45px;
+   
+}
+
+
+
 
 body{
     background-image: linear-gradient(rgba(0.8, 0.8, 0.8, 0.8), rgba(0.8, 0.8, 0.8, 0.8)),url(../imgs/git_hub_fondo.png);
@@ -14,12 +115,15 @@ body{
 
 
 a{
-    padding: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none ;
     color: white;
+    padding: 27px 29px;
     font-size: 19px;
-    margin-left: 32px;
+    display: inline-block;
+    top:0;
+    margin-bottom: 3rem;
+
 }
 
 a:hover{
@@ -46,16 +150,18 @@ h3{
 .icono{
     margin-top: 12px;
     position: absolute !important;
-    right: 99rem;
+    right: 2rem;
     color: white;
+    position: absolute;
 }
+
 
 
 
 
 h1{
    font-family: "Merriweather", serif;
-    margin-left:50rem;
+    margin-left:46rem;
     margin-top:45px;
     font-size: 45px;
     color:rgb(168, 176, 186);
@@ -67,34 +173,27 @@ h1{
 .card{
     width: 49rem;
     margin-top: 34px;
-    margin-left: 37rem;
+    margin-left: 34rem;
     background-color:rgb(31, 31, 31);
     border-radius: 15px;
-    
-}
-
-.parrafo1{
     font-size:22px;
     font-family:'Courier New', Courier, monospace;
     color:white;
+    
 }
-
-
-
-
 
 
 
 .imagen1{
     width: 13rem;
-    margin-left: 54rem;
+    margin-left: 52rem;
     margin-top:19px;
 }
 
 
 .etiqueta a {
     width: 11rem;
-    margin-left: 55rem;
+    margin-left: 53rem;
     margin-top: 2rem;
     font-size: 23px;
 }
@@ -103,7 +202,7 @@ h1{
 .parrafos{
     color:white;
     font-family:'Courier New', Courier, monospace;
-    font-size: 21px;
+     font-size: 24px;
     width: 84%;
     margin-left: 13rem;;
     margin-top: 5rem ;
@@ -114,7 +213,7 @@ h1{
 .imagen2{
     width: 93rem;
     margin-top:10rem;
-    margin-left: 16rem;
+    margin-left: 13rem;
 
 }
 
@@ -122,21 +221,21 @@ h1{
 .imagen3{
     width: 93rem;
     margin-top:10rem;
-    margin-left: 16rem;
+    margin-left: 14rem;
 
 }
 
 .imagen4{
     width: 93rem;
     margin-top:10rem;
-    margin-left: 16rem;
+    margin-left: 14rem;
 
 }
 
 .imagen5{
     width: 93rem;
     margin-top:10rem;
-    margin-left: 16rem;
+    margin-left: 14rem;
 
 }
 
@@ -181,7 +280,7 @@ footer a:hover{
     position: absolute;
     left: 34rem;
     font-family:'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 
@@ -192,7 +291,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 55rem;
- margin-top: 1rem;
+ margin-top: -3px;
 
     
 }
@@ -203,8 +302,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 62rem;
- margin-top: 1rem;
-
+ margin-top: -2px;
 
     
 }
@@ -216,7 +314,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 69rem;
- margin-top: 1.50rem;
+ margin-top: 3px;
 
 
     

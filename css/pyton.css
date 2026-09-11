@@ -1,5 +1,104 @@
-nav{
+.nav2{
+    height: 6rem;
+   
+}
+
+#button{
+  margin-top: 29px; 
+  margin-left:3rem;
+}
+
+
+@font-face {
+  font-family: 'Code-Codex';
+  src: url('code-codex2-recuperada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h6{
+   color:rgb(248, 216, 33);
+   position:absolute;
+   left:44rem;
+   font-family: 'Code-Codex';
+   font-size: 43px;
+   margin-top: 13px;
+   font-weight: bold;
+   font-synthesis: weight;
+
+  
+}
+
+
+h7{
+   color: white;
+   position:absolute;
+   left:94rem;
+   font-family: "Merriweather", serif;
+   font-size: 40px;
+   margin-top: 13px;
+  
+}
+
+
+.icono2{
+    margin-top: 12px;
+    position: absolute !important;
+    left: 108rem;
+    color: white;
+
+}
+h9{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+}
+
+
+
+
+
+
+
+
+
+#offcanvasExample{
+    width: 18%;
+}
+
+.offcanvas-header{
+    background-color: black;;
+}
+
+.btn-close{
+    background-color: gray;
+}
+
+
+
+
+.offcanvas-body{
+ background-color: black;;
+
+}
+
+
+
+
+
+
+
+.nav{
     background-color: black;
+    width: 17rem;
+    height: 103vh;
+    padding:0;
+    margin:0;
+    z-index: 1000;
+    padding:0;
+    position:fixed;
+    margin-top: -45px;
+   
 }
 
 body{
@@ -12,16 +111,17 @@ body{
 
 
 
-
 a{
-    padding: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none ;
     color: white;
+    padding: 27px 29px;
     font-size: 19px;
-    margin-left: 32px;
-}
+    display: inline-block;
+    top:0;
+    margin-bottom: 3rem;
 
+}
 a:hover{
     background-color:rgb(248, 216, 33);
     border-radius: 18px;
@@ -35,14 +135,13 @@ h3{
     margin-top: 16px;
     color: white;
 }
-
 .icono{
     margin-top: 12px;
     position: absolute !important;
-    right: 100rem;
+    right: 2rem;
     color: white;
+    position: absolute;
 }
-
 
 h1{
    font-family: "Merriweather", serif;
@@ -244,18 +343,19 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 55rem;
- margin-top: 1rem;
+ margin-top: -3px;
 
     
 }
 
 
 .imagen3{
- width: 6rem;
+  width: 6rem;
  padding: 11px;
  position:absolute;
  left: 62rem;
- margin-top: 1rem;
+ margin-top: -2px;
+
 
 
     
@@ -268,7 +368,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 69rem;
- margin-top: 1.50rem;
+ margin-top: 3px;
 
 
     

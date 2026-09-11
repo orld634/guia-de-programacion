@@ -10,18 +10,42 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="nav d-flex justify-content-center">
-    <h3>code.codex</h3>
+    <header>
+    <nav class="nav2  bg-dark">
+    <h6><i class="bi bi-chevron-right"></i>SECCION LENGUAJE EN CASCADA CSS<i class="bi bi-chevron-left"></i></h6>
+    <h7>Code-Codex</h7>
+    <div class="icono2">
+    <i class="bi bi-code-slash fs-1"></i>
+    <h9>.net</h9>
+    </div>
+    
+    <button id="button" class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      Code-Codex: seccions
+    </button>
+    </nav>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+     <div class="offcanvas-body">
+    <nav class="nav">
+    <h3>Code.Codex</h3>
     <div class="icono">
     <i class="bi bi-code-slash fs-1"></i>
     </div>
+    <ul>
      <a href="visual.html">seccion visual</a>
      <a href="python.html">seccion python</a>
+     <a href="#">seccion JavaScript</a>
      <a href="index.html">seccion html</a>
      <a href="git.html">seccion git</a>
-     <a href="#">seccion git hub</a>
+     <a href="git_hub.html">seccion git hub</a>
+     </ul>
     </nav>
-     <h1>secccion css</h1>
+    </div>
+  </div>
+    </header>
+     <h1>concepto general</h1>
      <div class="card">
     <div class="card-body">
     <p>Esta sección nos mostrará el secreto de cada vista web a la hora de ponerle un estilo que le da los colores, las posiciones respectivas y la apariencia
@@ -201,8 +225,8 @@
 
       
       
-
-</body>
 <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
 

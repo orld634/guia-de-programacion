@@ -1,5 +1,113 @@
-nav{
+
+
+.nav2{
+    height: 6rem;
+}
+
+#button{
+  margin-top: 29px; 
+  margin-left:3rem;
+}
+
+
+@font-face {
+  font-family: 'Code-Codex2';
+  src: url('code-codex2-recuperada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h6 {
+  color: rgb(255, 123, 0);
+  position: absolute;
+  left: 37rem;
+  font-family: 'Code-Codex2';
+  font-size: 42px;
+  margin-top: 21px;
+  font-weight: bold;
+  font-synthesis: weight;
+
+ 
+}
+
+
+.negrita-code-codex2 {
+  font-family: 'code-codex2', sans-serif;
+  -webkit-text-stroke: 1px currentColor; /* grosor del contorno */
+}
+
+
+
+
+h7{
+   color: white;
+   position:absolute;
+   left:94rem;
+   font-family: "Merriweather", serif;
+   font-size: 40px;
+   margin-top: 13px;
+  
+}
+
+
+.icono2{
+    margin-top: 12px;
+    position: absolute !important;
+    left: 108rem;
+    color: white;
+
+}
+
+h9{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+}
+
+
+
+
+
+
+
+
+#offcanvasExample{
+    width: 18%;
+}
+
+.offcanvas-header{
     background-color: black;
+}
+
+.btn-close{
+    background-color: gray;
+}
+
+
+
+
+.offcanvas-body{
+ background-color:black;
+
+}
+
+
+
+
+
+
+
+.nav{
+    background-color: black;
+    width: 17rem;
+    height: 103vh;
+    padding:0;
+    margin:0;
+    z-index: 1000;
+    padding:0;
+    position:fixed;
+    margin-top: -45px;
+   
 }
 
 
@@ -23,30 +131,33 @@ body{
 h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:40px;
-    margin-right: 38rem;
     margin-top: 16px;
     color: white;
+    margin-left: 1rem;
 }
-
 .icono{
     margin-top: 12px;
     position: absolute !important;
-    right: 101rem;
+    right: 1rem;
     color: white;
+    position: absolute;
 }
 
 
 a{
-    padding: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none ;
     color: white;
+    padding: 27px 29px;
     font-size: 19px;
-    margin-left: 32px;
+    display: inline-block;
+    top:0;
+    margin-bottom: 3rem;
+
 }
 a:hover{
     background-color: rgb(255, 136, 0);
-    border-radius: 18px;
+    border-radius: 1rem;
 }
 
 h1{
@@ -70,19 +181,11 @@ h1{
     
 }
 
-h2{
-    color:rgb(255, 123, 0);
-    font-family: "Merriweather", serif;
-    margin-left: 44rem;
-    margin-top: 54px;
-    background: rgba(0, 0, 0, 0.45);
 
-
-}
 
 .imagen1{
-    width: 8rem;
-    margin-left: 58rem;
+    width: 13rem;
+    margin-left: 55rem;
     margin-top:-12px;
 }
 
@@ -92,15 +195,15 @@ h2{
     background-color:white;
     border-radius: 18px;
     padding: 17px;
-    margin-left: 44rem
+    margin-left: 43rem
 }
 
 .parrafo1{
     color: #f5f5f5;
     font-size: 22px;
     font-family:'Courier New', Courier, monospace;
-    width: 83%;
-    margin-left: 16rem;
+    width: 87%;
+    margin-left: 10rem;
     margin-top: 28px;
 }
 
@@ -112,9 +215,9 @@ li{
 
 .card3{
     width: 49rem; 
-     background-color:rgb(31, 31, 31);
+    background-color:rgb(31, 31, 31);
     border-radius: 14px;
-    margin-left:38rem ;
+    margin-left:37rem ;
     margin-top: 4rem;
     padding: 34px;
 }
@@ -123,13 +226,14 @@ li{
     color:white;
     font-size: 22px;
     font-family:'Courier New', Courier, monospace;
-    width: 83%;
-    margin-left: 15rem;
+    width: 87%;
+    margin-left: 10rem;
     margin-top: 3rem;
 }
 
 .imagenes{
     margin-top:3rem;
+    margin-left: 3rem;
 }
 
 .imagen2{
@@ -159,9 +263,18 @@ li{
     
 }
 
+.parrafo3{
+    color:white;
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    width: 87%;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
 
 .etiqueta {
-    margin-top:2rem
+    margin-top:2rem;
+    
 }
 
 
@@ -169,7 +282,7 @@ li{
 
 .etiqueta a{
     width: 12rem;
-    margin-left: 56rem;
+    margin-left: 55rem;
     margin-top: 2rem;
     font-size: 23px;
 }
@@ -178,8 +291,10 @@ li{
 footer{
     background-color:rgb(255, 123, 0); 
     color: black;
-    width: 100%;
+    width: 107%;
     height: 13vh;
+    position: absolute;
+    margin-top: 30px;
 
 }
 
@@ -203,7 +318,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 55rem;
- margin-top: 1rem;
+ margin-top: -3px;
 
     
 }
@@ -214,7 +329,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 62rem;
- margin-top: 1rem;
+ margin-top: -2px;
 
 
     
@@ -227,7 +342,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 69rem;
- margin-top: 1.50rem;
+ margin-top: 3px;
 
 
     
@@ -238,7 +353,7 @@ footer a:hover{
     font-size:22px;
     font-family:  'Consolas', 'Courier New', 'Fira Code', monospace !important;;
     color:beige;
-    margin-left: 15rem;
+    margin-left: 10rem;
     width: 85%;
     margin-top: 3rem
 }

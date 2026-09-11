@@ -1,7 +1,101 @@
-nav{
+.nav2{
+    height: 6rem;
+}
+
+#button{
+  margin-top: 29px; 
+  margin-left:3rem;
+}
+
+@font-face {
+  font-family: 'Code-Codex2';
+  src: url('code-codex2-recuperada.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+h6{
+   color:rgb(240, 77, 2);
+   position:absolute;
+   left:44.55rem;
+   font-family: 'Code-Codex2';
+   font-size: 42px;
+   margin-top: 21px;
+   font-weight: bold;
+   font-synthesis: weight;
+  
+}
+
+
+h7{
+   color: white;
+   position:absolute;
+   left:94rem;
+   font-family: "Merriweather", serif;
+   font-size: 40px;
+   margin-top: 13px;
+  
+}
+
+
+.icono2{
+    margin-top: 12px;
+    position: absolute !important;
+    left: 108rem;
+    color: white;
+
+}
+
+h9{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#offcanvasExample{
+    width: 18%;
+}
+
+.offcanvas-header{
     background-color: black;
 }
 
+.btn-close{
+    background-color: gray;
+}
+
+
+
+
+.offcanvas-body{
+ background-color:black;
+
+}
+
+.nav{
+    background-color: black;
+    width: 17rem;
+    height: 103vh;
+    padding:0;
+    margin:0;
+    z-index: 1000;
+    padding:0;
+    position:fixed;
+    margin-top: -45px;
+   
+}
 
 body{
     background-image: linear-gradient(rgba(0.6, 0.6, 0.6, 0.6), rgba(0.6, 0.6, 0.6, 0.6)),url(../imgs/git_fondo.png);
@@ -13,12 +107,14 @@ body{
 
 
 a{
-    padding: 30px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none ;
     color: white;
+    padding: 27px 29px;
     font-size: 19px;
-    margin-left: 32px;
+    display: inline-block;
+    top:0;
+    margin-bottom: 3rem;
 }
 
 a:hover{
@@ -38,14 +134,15 @@ h3{
 .icono{
     margin-top: 12px;
     position: absolute !important;
-    right: 100rem;
+    right: 2rem;
     color: white;
+    position: absolute;
 }
 
 
 h1{
    font-family: "Merriweather", serif;
-    margin-left:53rem;
+    margin-left:45rem;
     margin-top:45px;
     font-size: 45px;
     color:rgb(240, 77, 2);
@@ -57,7 +154,7 @@ h1{
 .card{
     width: 49rem;
     margin-top: 34px;
-    margin-left: 37rem;
+    margin-left: 33rem;
     background-color:rgb(31, 31, 31);
     border-radius: 15px;
     font-size:19px;
@@ -68,35 +165,24 @@ h1{
 
 .imagen1{
     width: 12rem;
-    margin-left: 54rem;
+    margin-left: 51rem;
     margin-top:2rem;
 }
 
 .etiqueta a{
     width: 10rem;
-    margin-left: 55rem;
+    margin-left: 52rem;
     margin-top: 2rem;
     font-size: 23px;
 }
 
 
-
 .card2{
     width: 37rem;
     background-color:rgb(255, 255, 255);
     border-radius: 18px;
     padding: 17px;
-    margin-left: 42rem;
-    margin-top:4rem
-}
-
-
-.card2{
-    width: 37rem;
-    background-color:rgb(255, 255, 255);
-    border-radius: 18px;
-    padding: 17px;
-    margin-left: 42rem;
+    margin-left: 39rem;
     margin-top:4rem
 }
 
@@ -105,7 +191,7 @@ h1{
     width: 65rem;
     background-color:rgb(42, 43, 44);
     border-radius: 18px;
-    margin-left: 28rem;
+    margin-left: 25.55rem;
     padding: 34px;
     margin-top:4rem;
     color:white;
@@ -173,7 +259,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 55rem;
- margin-top: 1rem;
+ margin-top: -3px;
 
     
 }
@@ -184,8 +270,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 62rem;
- margin-top: 1rem;
-
+ margin-top: -2px;
 
     
 }
@@ -197,7 +282,7 @@ footer a:hover{
  padding: 11px;
  position:absolute;
  left: 69rem;
- margin-top: 1.50rem;
+ margin-top: 3px;
 
 
     
